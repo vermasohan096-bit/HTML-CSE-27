@@ -1,11 +1,84 @@
+
+    
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+<header class="navbar">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm Sohan Verma</h1>
+        <p>Aspiring Web Developer | HTML, CSS, GitHub</p>
+        <a href="#contact" class="btn">Hire Me</a>
+        
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Web Developer learning Frontend development with HTML, CSS, and GitHub. I enjoy creating clean and responsive websites and improving my skills every day.</p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+        <div class="project-item">
+            <h3>Portfolio Website</h3>
+            <p>Responsive HTML & CSS portfolio design.</p>
+        </div>
+        <div class="project-item">
+            <h3>Student Registration Form</h3>
+            <p>Clean & validated form using HTML.</p>
+        </div>
+        <div class="project-item">
+            <h3>Product Landing Page</h3>
+            <p>Modern UI with flexbox layout.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>© 2025 MyPortfolio | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
